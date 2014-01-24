@@ -1,0 +1,40 @@
+material opossum
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.544733 0.463531 0.482873 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+	    vertex_program_ref rex/DiffSpecmapNormalVP
+            {
+            }
+            fragment_program_ref rex/DiffSpecmapNormalFP
+            {
+                param_named specularPower float 64.0
+            }
+            texture_unit baseMap
+            {
+                texture opossum.jpg
+                tex_address_mode wrap
+                filtering trilinear
+            }
+            texture_unit specularMap
+            {
+                texture opossum_SPEC.png
+                tex_address_mode wrap
+                filtering trilinear
+            }
+            texture_unit normalMap
+            {
+                texture opossum_NRM.png
+                tex_address_mode wrap
+                filtering trilinear
+            }
+		}
+	}
+}
+

@@ -1,0 +1,85 @@
+watersplash_hispeed
+{
+	quota   4
+	material local://water_splash_hispeed.material 
+	particle_width   0.34
+	particle_height   0.34
+	cull_each   false
+	renderer   billboard
+	sorted   false
+	local_space   false
+	iteration_interval   0
+	nonvisible_update_timeout   0
+	billboard_type   point
+	billboard_origin   center
+	billboard_rotation_type   vertex
+	common_up_vector   0 1 0
+	point_rendering   false
+	accurate_facing   false
+	emitter Ring
+	{
+		angle   90
+		colour   1 1 1 1
+		colour_range_start   1 1 1 1
+		colour_range_end   1 1 1 1
+		direction   0 0 -1
+		emission_rate   20000
+		position   0 0 -0.31
+		velocity   0
+		velocity_min   0.0
+		velocity_max   0
+		time_to_live   0.5
+		time_to_live_min   0.2
+		time_to_live_max   0.5
+		duration   0.02
+		duration_min   0.02
+		duration_max   0.02
+		repeat_delay   5
+		repeat_delay_min   5
+		repeat_delay_max   5
+		width   0.004
+		height   0.004
+		depth   0.0001
+		inner_width   0.8
+		inner_height   0.8
+	}
+	emitter Ring
+	{
+		angle   7
+		colour   1 1 1 1
+		colour_range_start   1 1 1 1
+		colour_range_end   1 1 1 1
+		direction   0 0 -1
+		emission_rate   10000
+		position   0 0 0
+		velocity   20
+		velocity_min   2
+		velocity_max   4
+		time_to_live   1
+		time_to_live_min   1
+		time_to_live_max   1
+		duration   0.02
+		duration_min   0.02
+		duration_max   0.02
+		repeat_delay   5
+		repeat_delay_min   5
+		repeat_delay_max   5
+		width   0.4
+		height   0.4
+		depth   0.001
+		inner_width   0.9
+		inner_height   0.9
+	}
+	affector ColourFader
+	{
+		red   1
+		green   1
+		blue   1
+		alpha   -2.9
+	}
+
+	affector Scaler
+	{
+		rate   3.43
+	}
+}

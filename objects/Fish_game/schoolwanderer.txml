@@ -1,0 +1,41 @@
+<!DOCTYPE Scene>
+<scene>
+ <entity id="104">
+  <component type="EC_Placeable" sync="1">
+   <attribute value="55,30,15,0,0,0,1,1,1" name="Transform"/>
+   <attribute value="true" name="Show bounding box"/>
+  </component>
+  <component type="EC_RigidBody" sync="1">
+   <attribute value="0" name="Mass"/>
+   <attribute value="0" name="Shape type"/>
+   <attribute value="1 1 1" name="Size"/>
+   <attribute value="" name="Collision mesh ref"/>
+   <attribute value="0.5" name="Friction"/>
+   <attribute value="0" name="Restitution"/>
+   <attribute value="0" name="Linear damping"/>
+   <attribute value="0" name="Angular damping"/>
+   <attribute value="1 1 1" name="Linear factor"/>
+   <attribute value="0 0 0" name="Angular factor"/>
+   <attribute value="false" name="Phantom"/>
+   <attribute value="true" name="Draw Debug"/>
+   <attribute value="0 0 0" name="Linear velocity"/>
+   <attribute value="0 0 0" name="Angular velocity"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="D:\\Antti\\lvm\\schoolwanderer.js" name="Script ref"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="School" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_DynamicComponent" sync="1" name="velocity">
+   <attribute value="0" type="real" name="x"/>
+   <attribute value="0" type="real" name="y"/>
+   <attribute value="0" type="real" name="z"/>
+  </component>
+ </entity>
+ 
+</scene>

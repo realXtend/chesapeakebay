@@ -1,0 +1,35 @@
+<!DOCTYPE Scene>
+<scene>
+ <entity id="1" sync="1">
+  <component type="EC_Mesh" sync="1">
+   <attribute value="0,0,0,0,0,0,1,1,1" name="Transform"/>
+   <attribute value="http://www.realxtend.org/world/lvm-tundra2/wt_deer.mesh" name="Mesh ref"/>
+   <attribute value="http://www.realxtend.org/world/lvm-tundra2/wt_deer.skeleton" name="Skeleton ref"/>
+   <attribute value="http://www.realxtend.org/world/lvm-tundra2/wt_deer.material" name="Mesh materials"/>
+   <attribute value="0" name="Draw distance"/>
+   <attribute value="false" name="Cast shadows"/>
+  </component>
+  <component type="EC_Placeable" sync="1">
+   <attribute value="0,0,-20,0,0,0,1,1,1" name="Transform"/>
+   <attribute value="false" name="Show bounding box"/>
+   <attribute value="true" name="Visible"/>
+   <attribute value="1" name="Selection layer"/>
+   <attribute value="" name="Parent entity ref"/>
+   <attribute value="" name="Parent bone name"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="wt_deer" name="name"/>
+   <attribute value="" name="description"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="http://www.realxtend.org/world/lvm-tundra2/simpledeer.js" name="Script ref"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="0" name="Run mode"/>
+   <attribute value="" name="Script application name"/>
+   <attribute value="" name="Script class name"/>
+  </component>
+  <component type="EC_AnimationController" sync="1">
+   <attribute value="" name="Animation state"/>
+  </component>
+ </entity>
+</scene>

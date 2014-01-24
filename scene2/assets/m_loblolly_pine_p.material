@@ -1,0 +1,33 @@
+material m_loblolly_pine_p
+{
+    receive_shadows off
+    technique
+    {
+        shadow_caster_material m_loblolly_pine_p_caster.material
+        pass
+        {
+            iteration once
+            alpha_rejection greater_equal 170
+//            scene_blend src_alpha one_minus_src_alpha
+            texture_unit baseMap
+            {
+                texture loblolly_pine_plane.png
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+        pass
+        {
+            iteration once
+            alpha_rejection less_equal 169
+            scene_blend src_alpha one_minus_src_alpha
+            depth_write off
+            texture_unit baseMap
+            {
+                texture loblolly_pine_plane.png
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+    }
+}

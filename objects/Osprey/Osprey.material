@@ -1,0 +1,58 @@
+material leathers.002
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			iteration once
+			alpha_rejection greater_equal 128
+
+//			shadow_caster_vertex_program_ref rex/ShadowCasterAlphaVP
+//			{
+//			}			
+//			shadow_caster_fragment_program_ref rex/ShadowCasterAlphaFP
+//			{
+//			}						
+			vertex_program_ref rex/DiffAlphamaskVP
+			{
+			}
+			fragment_program_ref rex/DiffAlphamaskFP
+			{
+			}
+			texture_unit baseMap
+			{
+				texture Osprey_Wings.png
+			}
+		}
+	}
+}
+material body.001
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			iteration once
+			alpha_rejection greater_equal 128
+
+//			shadow_caster_vertex_program_ref rex/ShadowCasterAlphaVP
+//			{
+//			}			
+//			shadow_caster_fragment_program_ref rex/ShadowCasterAlphaFP
+//			{
+//			}						
+			vertex_program_ref rex/DiffAlphamaskVP
+			{
+			}
+			fragment_program_ref rex/DiffAlphamaskFP
+			{
+			}
+			texture_unit baseMap
+			{
+				texture Osprey_Body.png
+			}
+		}
+	}
+}

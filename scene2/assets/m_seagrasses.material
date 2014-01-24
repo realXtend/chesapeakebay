@@ -1,0 +1,35 @@
+material m_seagrasses
+{
+    technique
+    {
+        shadow_caster_material m_seagrasses_caster.material
+        pass
+        {
+            cull_hardware none
+            iteration once
+            scene_blend src_alpha one_minus_src_alpha
+//            depth_write off
+            alpha_rejection greater_equal 220
+            texture_unit baseMap
+            {
+                texture seagrasses.dds
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+        pass
+        {
+            cull_hardware none
+            iteration once
+            scene_blend src_alpha one_minus_src_alpha
+            depth_write off
+            alpha_rejection less_equal 219
+            texture_unit baseMap
+            {
+                texture seagrasses.dds
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+    }
+}

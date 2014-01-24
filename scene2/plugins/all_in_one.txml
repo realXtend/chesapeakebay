@@ -1,0 +1,261 @@
+<!DOCTYPE Scene>
+<scene>
+ <entity id="364">
+  <component type="EC_Name" sync="1">
+   <attribute value="Environment" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_EnvironmentLight" sync="1">
+   <attribute value="0.638035417 0.638035417 0.638035417 1" name="Sun color"/>
+   <attribute value="0.349147767 0.349147767 0.349147767 3" name="Ambient color"/>
+   <attribute value="0.930000007 1 0.129999995 1" name="Sun diffuse color"/>
+   <attribute value="-0.965429962 -0.17521961 -0.192984745" name="Sun direction vector"/>
+   <attribute value="true" name="Use fixed time"/>
+   <attribute value="0.59" name="Current time"/>
+   <attribute value="true" name="Sun cast shadows"/>
+   <attribute value="true" name="Use Caelum"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="local://daynight.js" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="363">
+  <component type="EC_Name" sync="1">
+   <attribute value="ChatApplication" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_Script" sync="1" name="ChatApplication">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="local://ChatApplication.js" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="283">
+  <component type="EC_Name" sync="1">
+   <attribute value="OspreyGame" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="local://osprey_game.js" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="282">
+  <component type="EC_Name" sync="1">
+   <attribute value="OspreyLauncher" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="local://osprey_launcher.js" name="Script ref"/>
+  </component>
+  <component type="EC_Placeable" sync="1">
+   <attribute value="0 0 0" name="Position"/>
+   <attribute value="1 1 1" name="Scale"/>
+   <attribute value="-72.27,15.91,6.5,0,0,0,1,1,1" name="Transform"/>
+   <attribute value="false" name="Show bounding box"/>
+   <attribute value="true" name="Visible"/>
+  </component>
+  <component type="EC_Mesh" sync="1">
+   <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+   <attribute value="local://gold_osprey_statue.mesh" name="Mesh ref"/>
+   <attribute value="local://gold_osprey_statue.skeleton" name="Skeleton ref"/>
+   <attribute value="local://m_osprey_pillar.material" name="Mesh materials"/>
+   <attribute value="0" name="Draw distance"/>
+   <attribute value="false" name="Cast shadows"/>
+  </component>
+ </entity>
+ <entity id="281">
+  <component type="EC_Placeable" sync="1">
+   <attribute value="0 0 0" name="Position"/>
+   <attribute value="1 1 1" name="Scale"/>
+   <attribute value="-13.0595,9.84465,4.0327,0,0,0,0.1,0.1,0.1" name="Transform"/>
+   <attribute value="false" name="Show bounding box"/>
+   <attribute value="true" name="Visible"/>
+  </component>
+  <component type="EC_Mesh" sync="1">
+   <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+   <attribute value="local://stripedbass2.mesh" name="Mesh ref"/>
+   <attribute value="local://stripedbass2.skeleton" name="Skeleton ref"/>
+   <attribute value="local://stripedbass2.material" name="Mesh materials"/>
+   <attribute value="0" name="Draw distance"/>
+   <attribute value="false" name="Cast shadows"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="OspreyGame_Fish" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_AnimationController" sync="1">
+   <attribute value="" name="Animation state"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="" name="Type"/>
+   <attribute value="false" name="Run on load"/>
+   <attribute value="" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="280">
+  <component type="EC_Placeable" sync="1">
+   <attribute value="0 0 0" name="Position"/>
+   <attribute value="1 1 1" name="Scale"/>
+   <attribute value="-15.5786,13.1725,4.94,0,0,0,0.1,0.1,0.1" name="Transform"/>
+   <attribute value="false" name="Show bounding box"/>
+   <attribute value="true" name="Visible"/>
+  </component>
+  <component type="EC_Mesh" sync="1">
+   <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+   <attribute value="local://stripedbass2.mesh" name="Mesh ref"/>
+   <attribute value="local://stripedbass2.skeleton" name="Skeleton ref"/>
+   <attribute value="local://stripedbass2.material" name="Mesh materials"/>
+   <attribute value="0" name="Draw distance"/>
+   <attribute value="false" name="Cast shadows"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="OspreyGame_Fish" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_AnimationController" sync="1">
+   <attribute value="" name="Animation state"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="" name="Type"/>
+   <attribute value="false" name="Run on load"/>
+   <attribute value="" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="279">
+  <component type="EC_Placeable" sync="1">
+   <attribute value="0 0 0" name="Position"/>
+   <attribute value="1 1 1" name="Scale"/>
+   <attribute value="-11.7041,6.84164,4.35328,0,0,0,0.1,0.1,0.1" name="Transform"/>
+   <attribute value="false" name="Show bounding box"/>
+   <attribute value="true" name="Visible"/>
+  </component>
+  <component type="EC_Mesh" sync="1">
+   <attribute value="0,0,0,180,0,180,0.1,0.1,0.1" name="Transform"/>
+   <attribute value="local://stripedbass2.mesh" name="Mesh ref"/>
+   <attribute value="local://stripedbass2.skeleton" name="Skeleton ref"/>
+   <attribute value="local://stripedbass2.material" name="Mesh materials"/>
+   <attribute value="0" name="Draw distance"/>
+   <attribute value="false" name="Cast shadows"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="OspreyGame_Fish" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_AnimationController" sync="1">
+   <attribute value="" name="Animation state"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="" name="Type"/>
+   <attribute value="false" name="Run on load"/>
+   <attribute value="" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="278">
+  <component type="EC_Name" sync="1">
+   <attribute value="MainHud" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="local://main_hud.js" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="277">
+  <component type="EC_Placeable" sync="1">
+   <attribute value="0 0 0" name="Position"/>
+   <attribute value="1 1 1" name="Scale"/>
+   <attribute value="-6.8812,9.95741,3.97434,0,0,0,0.1,0.1,0.1" name="Transform"/>
+   <attribute value="false" name="Show bounding box"/>
+   <attribute value="true" name="Visible"/>
+  </component>
+  <component type="EC_Mesh" sync="1">
+   <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+   <attribute value="local://stripedbass2.mesh" name="Mesh ref"/>
+   <attribute value="local://stripedbass2.skeleton" name="Skeleton ref"/>
+   <attribute value="local://stripedbass2.material" name="Mesh materials"/>
+   <attribute value="0" name="Draw distance"/>
+   <attribute value="false" name="Cast shadows"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="OspreyGame_Fish" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_AnimationController" sync="1">
+   <attribute value="" name="Animation state"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="" name="Type"/>
+   <attribute value="false" name="Run on load"/>
+   <attribute value="" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="276">
+  <component type="EC_Placeable" sync="1">
+   <attribute value="0 0 0" name="Position"/>
+   <attribute value="1 1 1" name="Scale"/>
+   <attribute value="-13.3147,3.29456,4.53155,0,0,0,0.1,0.1,0.1" name="Transform"/>
+   <attribute value="false" name="Show bounding box"/>
+   <attribute value="true" name="Visible"/>
+  </component>
+  <component type="EC_Mesh" sync="1">
+   <attribute value="0,0,0,180,0,180,0.1,0.1,0.1" name="Transform"/>
+   <attribute value="local://stripedbass2.mesh" name="Mesh ref"/>
+   <attribute value="local://stripedbass2.skeleton" name="Skeleton ref"/>
+   <attribute value="local://stripedbass2.material" name="Mesh materials"/>
+   <attribute value="0" name="Draw distance"/>
+   <attribute value="false" name="Cast shadows"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="OspreyGame_Fish" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_AnimationController" sync="1">
+   <attribute value="" name="Animation state"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="" name="Type"/>
+   <attribute value="false" name="Run on load"/>
+   <attribute value="" name="Script ref"/>
+  </component>
+ </entity>
+ <entity id="274">
+  <component type="EC_Script" sync="1">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="local://avatarapplication.js" name="Script ref"/>
+  </component>
+  <component type="EC_Name" sync="1">
+   <attribute value="AvatarScript" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_InputMapper" sync="1">
+   <attribute value="EC_InputMapper" name="Input context name"/>
+   <attribute value="102" name="Input context priority"/>
+   <attribute value="false" name="Take keyboard events over Qt"/>
+   <attribute value="false" name="Take mouse events over Qt"/>
+   <attribute value="" name="Mappings"/>
+   <attribute value="1" name="Action execution type"/>
+   <attribute value="1" name="Key modifiers enable"/>
+   <attribute value="true" name="Enable actions"/>
+   <attribute value="true" name="Trigger on keyrepeats"/>
+  </component>
+ </entity>
+</scene>

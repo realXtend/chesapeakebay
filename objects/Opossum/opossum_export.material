@@ -1,0 +1,44 @@
+material opossum
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.544733 0.463531 0.482873 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture opossum.jpg
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op alpha_blend
+			}
+		}
+	}
+}
+material fur
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.0000 0.0000 0.00000 1.000000
+			diffuse 0.650000 0.650000 0.600000 1.000000
+			specular 0.0 0.0 0.0 0.000000 2.500000
+			emissive 0.000000 0.000000 0.000000 0.000000
+			alpha_rejection greater_equal 128
+			texture_unit
+			{
+				texture opossum_fur.png
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op alpha_blend
+            }
+		}
+	}
+}
+

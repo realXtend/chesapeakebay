@@ -1,0 +1,15 @@
+<scene formatVersion="">
+    <nodes>
+        <node name="Opossum" id="3">
+            <position x="0" y="0" z="0" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <scale x="0.1" y="0.1" z="0.1" />
+            <entity name="Opossum" meshFile="opossum.mesh" static="false" />
+        </node>
+    </nodes>
+    <externals>
+    <item type="material">
+      <file name="opossum.material"/>
+    </item>
+  </externals>
+</scene>

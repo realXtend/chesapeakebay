@@ -1,0 +1,1155 @@
+<!DOCTYPE Scene>
+<scene>
+  <entity id="292">
+    <component type="EC_Name" sync="1">
+      <attribute value="WorldWall_4" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="103.27,21.26,4.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="2 96 25" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="268">
+    <component type="EC_Name" sync="1">
+      <attribute value="WorldWall_3" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-94.73,21.26,9.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="2 96 25" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="267">
+    <component type="EC_Name" sync="1">
+      <attribute value="WorldWall_1" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-10.73,-23.74,4.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="250 2 19" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="266">
+    <component type="EC_Name" sync="1">
+      <attribute value="WorldWall_2" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-10.73,63.26,10.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="250 2 19" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="300">
+    <component type="EC_Name" sync="1">
+      <attribute value="DeerVolume" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-71.73,45.26,16.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_VolumeTrigger" sync="1">
+      <attribute value="false" name="By Pivot"/>
+      <attribute value="" name="Entities"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="45 29 18" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="true" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="291">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-10.34,24.21,5.75,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_2_6" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="290">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-10.34,21.21,5.75,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_2_5" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="289">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-9.34,18.21,5.75,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_2_4" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="288">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-13.34,16.21,5.75,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_2_3" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="287">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-14.34,16.21,5.75,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_2_2" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="286">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-10.34,18.21,5.75,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_2_1" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="285">
+    <component type="EC_Name" sync="1">
+      <attribute value="CrabVolume" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-10.73,18.26,11.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="39 40 21" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="true" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+    <component type="EC_VolumeTrigger" sync="1">
+      <attribute value="false" name="By Pivot"/>
+      <attribute value="" name="Entities"/>
+    </component>
+  </entity>
+  <entity id="284">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="29.6584,12.21,5,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_1_6" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="283">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="28.66,14.2075,5,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_1_5" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="282">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="29.6584,17.21,5,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_1_4" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="281">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="30.66,13.21,5,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_1_3" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="280">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="29.6584,14.2075,5,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_1_1" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="279">
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="27.66,20.21,5,0,0,0,3,3,3" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://blue_crab.mesh" name="Mesh ref"/>
+      <attribute value="local://blue_crab.skeleton" name="Skeleton ref"/>
+      <attribute value="local://crab.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="Crab_vol_1_2" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://crab.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.0500000007 0.0500000007 0.00999999978" name="Size"/>
+      <attribute value="local://" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="278">
+    <component type="EC_Name" sync="1">
+      <attribute value="CrabVolume" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="32.27,19.26,11.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="46 85 21" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="true" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+    <component type="EC_VolumeTrigger" sync="1">
+      <attribute value="false" name="By Pivot"/>
+      <attribute value="" name="Entities"/>
+    </component>
+  </entity>
+  <entity id="277">
+    <component type="EC_Name" sync="1">
+      <attribute value="Deer_vol_4_1" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-31.73,-15.74,9.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://wt_deer.mesh" name="Mesh ref"/>
+      <attribute value="local://wt_deer.skeleton" name="Skeleton ref"/>
+      <attribute value="local://wt_deer.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://deer.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.5 1.5 0.100000001" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="276">
+    <component type="EC_Name" sync="1">
+      <attribute value="DeerVolume" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-31.73,-15.74,16.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="60 14 17" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="true" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+    <component type="EC_VolumeTrigger" sync="1">
+      <attribute value="false" name="By Pivot"/>
+      <attribute value="" name="Entities"/>
+    </component>
+  </entity>
+  <entity id="275">
+    <component type="EC_Name" sync="1">
+      <attribute value="Deer_vol_3_2" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-80.73,-5.74,11.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://wt_deer.mesh" name="Mesh ref"/>
+      <attribute value="local://wt_deer.skeleton" name="Skeleton ref"/>
+      <attribute value="local://wt_deer.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://deer.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.5 1.5 0.100000001" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="274">
+    <component type="EC_Name" sync="1">
+      <attribute value="Deer_vol_3_1" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-78.73,-4.74,11.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://wt_deer.mesh" name="Mesh ref"/>
+      <attribute value="local://wt_deer.skeleton" name="Skeleton ref"/>
+      <attribute value="local://wt_deer.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://deer.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.5 1.5 0.100000001" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="273">
+    <component type="EC_Name" sync="1">
+      <attribute value="DeerVolume" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-78.73,-4.74,16.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="29 39 18" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="true" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+    <component type="EC_VolumeTrigger" sync="1">
+      <attribute value="false" name="By Pivot"/>
+      <attribute value="" name="Entities"/>
+    </component>
+  </entity>
+  <entity id="272">
+    <component type="EC_Name" sync="1">
+      <attribute value="Deer_vol_2_1" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-31.73,57.26,8.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://wt_deer.mesh" name="Mesh ref"/>
+      <attribute value="local://wt_deer.skeleton" name="Skeleton ref"/>
+      <attribute value="local://wt_deer.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://deer.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.5 1.5 0.100000001" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="271">
+    <component type="EC_VolumeTrigger" sync="1">
+      <attribute value="false" name="By Pivot"/>
+      <attribute value="" name="Entities"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-31.73,57.26,16.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Name" sync="1">
+      <attribute value="DeerVolume" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="32 13 15" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="true" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="270">
+    <component type="EC_Name" sync="1">
+      <attribute value="Deer_vol_1_2" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-68.73,42.26,10.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://wt_deer.mesh" name="Mesh ref"/>
+      <attribute value="local://wt_deer.skeleton" name="Skeleton ref"/>
+      <attribute value="local://wt_deer.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://deer.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.5 1.5 0.100000001" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+  <entity id="269">
+    <component type="EC_Name" sync="1">
+      <attribute value="Deer_vol_1_1" name="name"/>
+      <attribute value="" name="description"/>
+      <attribute value="false" name="user-defined"/>
+    </component>
+    <component type="EC_Placeable" sync="1">
+      <attribute value="0 0 0" name="Position"/>
+      <attribute value="1 1 1" name="Scale"/>
+      <attribute value="-66.73,44.26,10.43,0,0,0,1,1,1" name="Transform"/>
+      <attribute value="false" name="Show bounding box"/>
+      <attribute value="true" name="Visible"/>
+    </component>
+    <component type="EC_Mesh" sync="1">
+      <attribute value="0,0,0,90,0,180,1,1,1" name="Transform"/>
+      <attribute value="local://wt_deer.mesh" name="Mesh ref"/>
+      <attribute value="local://wt_deer.skeleton" name="Skeleton ref"/>
+      <attribute value="local://wt_deer.material" name="Mesh materials"/>
+      <attribute value="0" name="Draw distance"/>
+      <attribute value="false" name="Cast shadows"/>
+    </component>
+    <component type="EC_AnimationController" sync="1">
+      <attribute value="" name="Animation state"/>
+    </component>
+    <component type="EC_Script" sync="1">
+      <attribute value="js" name="Type"/>
+      <attribute value="true" name="Run on load"/>
+      <attribute value="local://deer.js" name="Script ref"/>
+    </component>
+    <component type="EC_RigidBody" sync="1">
+      <attribute value="0" name="Mass"/>
+      <attribute value="0" name="Shape type"/>
+      <attribute value="0.5 1.5 0.100000001" name="Size"/>
+      <attribute value="" name="Collision mesh ref"/>
+      <attribute value="0.5" name="Friction"/>
+      <attribute value="0" name="Restitution"/>
+      <attribute value="0" name="Linear damping"/>
+      <attribute value="0" name="Angular damping"/>
+      <attribute value="1 1 1" name="Linear factor"/>
+      <attribute value="1 1 1" name="Angular factor"/>
+      <attribute value="false" name="Phantom"/>
+      <attribute value="true" name="Draw Debug"/>
+      <attribute value="0 0 0" name="Linear velocity"/>
+      <attribute value="0 0 0" name="Angular velocity"/>
+    </component>
+  </entity>
+</scene>

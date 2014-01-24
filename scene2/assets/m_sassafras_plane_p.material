@@ -1,0 +1,33 @@
+material m_sassafras_plane_p
+{
+    receive_shadows off
+    technique
+    {
+        shadow_caster_material m_sassafras_plane_p_caster.material    
+        pass
+        {
+            iteration once
+            alpha_rejection greater_equal 220
+            scene_blend src_alpha one_minus_src_alpha
+            texture_unit baseMap
+            {
+                texture sassafras_plane.png
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+        pass
+        {
+            iteration once
+            alpha_rejection less_equal 219
+            scene_blend src_alpha one_minus_src_alpha
+            depth_write off
+            texture_unit baseMap
+            {
+                texture sassafras_plane.png
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+    }
+}

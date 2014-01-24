@@ -1,0 +1,25 @@
+<!DOCTYPE Scene>
+<scene>
+<entity id="2">
+  <component type="EC_Name" sync="1">
+   <attribute value="Environment" name="name"/>
+   <attribute value="" name="description"/>
+   <attribute value="false" name="user-defined"/>
+  </component>
+  <component type="EC_EnvironmentLight" sync="1">
+   <attribute value="0.639 0.639 0.639 1" name="Sun color"/>
+   <attribute value="0.364 0.364 0.364 1" name="Ambient color"/>
+   <attribute value="0.93 1 0.13 1" name="Sun diffuse color"/>
+   <attribute value="-1 -1 -1" name="Sun direction vector"/>
+   <attribute value="true" name="Use fixed time"/>
+   <attribute value="0.67" name="Current time"/>
+   <attribute value="true" name="Sun cast shadows"/>
+   <attribute value="true" name="Use Caelum"/>
+  </component>
+  <component type="EC_Script" sync="1">
+   <attribute value="js" name="Type"/>
+   <attribute value="true" name="Run on load"/>
+   <attribute value="local://daynight.js" name="Script ref"/>
+  </component>
+ </entity>
+</scene>

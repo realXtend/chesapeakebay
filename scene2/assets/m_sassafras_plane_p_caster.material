@@ -1,0 +1,25 @@
+// Shadow caster material for writing to a standard depth-based shadow map, alpha test enabled
+material  m_sassafras_plane_p_caster
+{
+    technique
+    {
+        pass
+        {
+	    alpha_rejection greater_equal 128
+
+            vertex_program_ref rex/ShadowCasterAlphaVP
+            {
+            }
+            fragment_program_ref rex/ShadowCasterAlphaFP
+            {
+            }
+
+            texture_unit baseMap
+            {
+                texture sassafras_plane.png
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+    }
+}

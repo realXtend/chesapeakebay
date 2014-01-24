@@ -1,0 +1,18 @@
+material splash_hispeed
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture splash_hispeed.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}

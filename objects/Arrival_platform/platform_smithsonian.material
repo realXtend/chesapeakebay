@@ -1,0 +1,70 @@
+material pf_smiths_sisareuna
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+            lighting on
+            ambient 0.5 0.5 0.5
+            diffuse vertexcolour
+            scene_blend one zero
+            specular 0.15 0.15 0.15 1 3
+            texture_unit
+            {
+                colour_op_ex modulate src_current src_manual 0.7 0.7 0.7
+            }
+        }
+        pass
+        {
+            lighting on
+            ambient 0.2 0.2 0.2
+            diffuse 1 1 1
+			specular 0.25 0.25 0.25 1 100
+            scene_blend add
+        }
+    }
+}
+
+material pf_smiths_reuna
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 0.250000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture pf_smithsonian_side.png
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op alpha_blend
+			}
+		}
+	}
+}
+material pf_smiths_lattia
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+            lighting on
+            ambient 0 0 0 0
+			scene_blend modulate
+			depth_write off
+			texture_unit
+			{
+				texture pf_smithsonian_floor.png
+                colour_op alpha_blend
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}

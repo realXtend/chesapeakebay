@@ -1,0 +1,25 @@
+material m_loblollypine_leaves
+{
+    receive_shadows on
+    technique
+    {
+        shadow_caster_material m_loblollypine_leaves_caster.material
+        pass
+        {
+            iteration once
+            alpha_rejection greater_equal 32
+            vertex_program_ref rex/DiffAlphamaskVP
+            {
+            }
+            fragment_program_ref rex/DiffAlphamaskFP
+            {
+            }
+            texture_unit baseMap
+            {
+                texture loblolly_pine_branch.dds
+                tex_address_mode wrap
+                filtering trilinear
+            }
+        }
+    }
+}

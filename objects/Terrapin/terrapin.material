@@ -1,0 +1,21 @@
+material terrapin
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 1.000000
+			diffuse 0.705882 0.621177 0.272941 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 4.000000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture terrapin_texture.png
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op alpha_blend
+			}
+		}
+	}
+}

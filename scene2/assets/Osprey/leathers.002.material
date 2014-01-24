@@ -1,0 +1,22 @@
+material leathers.002
+{
+    receive_shadows on
+    technique
+    {
+        pass
+        {
+            iteration once
+            alpha_rejection greater_equal 128
+            vertex_program_ref rex/DiffAlphamaskVP
+            {
+            }
+            fragment_program_ref rex/DiffAlphamaskFP
+            {
+            }
+            texture_unit baseMap
+            {
+                texture Osprey_Wings.png
+            }
+        }
+    }
+}
